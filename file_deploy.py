@@ -1,3 +1,7 @@
+#This script helps to copy files and folders into the remote machines in a LAN thereby reducing the manual task of 
+#copying files into every machines. We can use this script if we don't have an AD set up. And the only condition is 
+#that the every system must provide a shared folder and give access to the master machine which we use to run this script.
+
 import subprocess
 
 #this file("path.txt") contains the ip address of the remote machine and the respected shared folder in it.
